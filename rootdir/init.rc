@@ -10,6 +10,9 @@ import /init.${ro.hardware}.rc
 import /init.usb.configfs.rc
 import /init.${ro.zygote}.rc
 
+# Include ElementalX's extra init file
+import /init.elementalx.rc
+
 # Include CM's extra init file
 import /init.cm.rc
 
